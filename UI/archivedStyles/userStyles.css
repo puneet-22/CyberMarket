@@ -1,0 +1,119 @@
+*{
+  /* user-select: none; */
+}
+body{
+    background-color: #222;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #444;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+ 
+  div.loggedIn{
+    position: fixed;
+    background-color: #444;
+  bottom: 10px;
+  right: 0;
+  width: 300px;
+  backdrop-filter: blur(50px);
+  padding: 20px;
+  border-radius: 20px;
+  /* border: 3px solid #73AD21; */
+  }
+  span.userName{
+    color: yellow;
+    font-size: larger;
+  }
+  .logout{
+    background-color: #222;
+    border: #222;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+    color: white;
+  }
+  .pageContent{
+    height: 85vh;
+    /* border: 1px solid white; */
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  /* .productOptions{
+    display: flex;
+    justify-content: flex-end;
+  } */
+  /* .productOptions button{
+    border: 1px solid black;
+  } 
+  */
+  .productOptions *{
+    border: 1px solid black;
+  }
+
+  div.selfUpdateForm{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+  }
+  form#selfEdit{
+    display: flex;
+    flex-direction: column;
+  }
+  .wishlistItem{
+    border: 1px solid white;
+    width: 20vw;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .wishlist{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  tr{
+    height: 2vh;
+  }

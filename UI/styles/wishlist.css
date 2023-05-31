@@ -1,0 +1,90 @@
+.wishlist{
+    /* border: 1px solid red; */
+}
+#loggedIn{
+    color: white;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0;
+}
+/* Navbar styling */
+.navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-menu {
+    background-color: #343a40;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  /* Page content styling */
+  .pageContent {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+  }
+/* Style for product table */
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .productTable th,
+  .productTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .productTable th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .productTable tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style for product options */
+  .productOptions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .orderButton,
+  .addToCart,
+  .addToWishlist {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .orderButton:hover,
+  .addToCart:hover,
+  .addToWishlist:hover {
+    background-color: #0077b3;
+  }
+    

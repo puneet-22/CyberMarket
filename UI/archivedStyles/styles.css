@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    color: #f2f2f2;
+    font-family: sans-serif;
+    /* user-select: none; */
+  }
+  
+  body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    background: #222;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #2b2b2b;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    color: #f2f2f2;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .welcomeMsg {
+    font-size: 2rem;
+    text-align: center;
+    color: #f2f2f2;
+  }
+  
+  .buttonsPallate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .button {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f2f2f2;
+    height: 60px;
+    width: 200px;
+    background: #222;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    box-shadow: inset 4px 4px 8px #1a1a1a, inset -4px -4px 8px #2b2b2b;
+    transform: translateY(2px);
+  }
+  
+/* *{
+    box-sizing: border-box;
+    
+    color: rgb(255, 255, 255);
+}
+div.header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px)
+}
+div.content{
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div.welcomeMesg{
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+div.buttonsPallate{
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a.button{
+    font-size: larger;
+    color: white;
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+body{
+    background-image: linear-gradient(to right top, #00183b, #001c4d, #001f5e, #002270, #002381);
+    
+    background-size: cover;
+    height: 100vh;
+} */
+

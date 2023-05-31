@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    color: #f2f2f2;
+    font-family: sans-serif;
+    /* user-select: none; */
+    /* border: 1px solid red; */
+  }
+  
+  body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mainContainer {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    background: #222;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #2b2b2b;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    color: #f2f2f2;
+  }
+  .loginForm{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  .pageTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  input{
+    background-color: #2b2b2b;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+  }
+  .welcomeMsg {
+    font-size: 2rem;
+    text-align: center;
+    color: #f2f2f2;
+  }
+  
+  .buttonsPallate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: #222;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .button {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f2f2f2;
+    height: 60px;
+    width: 200px;
+    background: #222;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #2b2b2b;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    box-shadow: inset 4px 4px 8px #1a1a1a, inset -4px -4px 8px #2b2b2b;
+    transform: translateY(2px);
+  }
+  
+

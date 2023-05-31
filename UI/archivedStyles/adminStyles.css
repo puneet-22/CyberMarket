@@ -1,0 +1,183 @@
+*{
+  /* user-select: none; */
+  /* border: 1px solid red; */
+}
+body{
+    background-color: #222;
+}
+
+  
+ 
+  div.loggedIn{
+    position: fixed;
+    background-color: #444;
+  bottom: 10px;
+  right: 0;
+  width: 300px;
+  backdrop-filter: blur(50px);
+  padding: 20px;
+  border-radius: 20px;
+  /* border: 3px solid #73AD21; */
+  }
+  span.userName{
+    color: yellow;
+    font-size: larger;
+  }
+  .logout{
+    background-color: #222;
+    border: #222;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+    color: white;
+  }
+  .pageContent{
+    height: 85vh;
+    border: 1px solid white;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white
+  }
+
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  /* .productOptions{
+    display: flex;
+    justify-content: flex-end;
+  } */
+  /* .productOptions button{
+    border: 1px solid black;
+  } 
+  */
+  .productOptions *{
+    border: 1px solid black;
+  }
+  .notAllowed{
+    cursor: not-allowed;
+  }
+
+  /* #editOverlay{
+   
+  }
+  #overlayItem{
+
+  } */
+  .overlayContainer{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+  .overlayItem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+.editForm{
+  display: flex;
+  flex-direction: column;
+}
+div.deleteUser{
+  width: max-content  ;
+  padding: 0;
+}
+h3.deleteInfo{
+  margin: 0;
+}
+.deleteformButtons{
+  
+  height: 30px;
+  text-align: center;
+}
+
+#editUserButton{
+  width: 70px;
+}
+#cancelEdit{
+  width: 70px;
+}
+div.usersCart{
+  /* border: 1px solid white; */
+  width: 70vw;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+div.usersCart{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 80px;
+}
+div.card{
+  /* border: 1px solid red; */
+  margin: 10px;
+  height: 30vh;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right top, #340537, #2d053b, #24053e, #180642, #000746);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p.cardSub{
+  font-size: 15px;
+}
+div.card *{
+  margin: 0
+}
+div.card-text{
+  font-size: 30px;
+}
+
+form.updateProduct{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  /* border: 1px solid white; */
+  height: 70vh;
+  justify-content: space-around;
+  align-content: center;
+  /* flex-wrap: wrap; */
+}
+.updateProduct input{
+  /* width: ; */
+  float: right;
+  height: 5vh;
+  font-size: 3vh;
+}
+#description{
+  width: 20vw;
+  font-size: 3vh;
+}
+div.addNewProduct{
+  /* border: 1px solid white; */
+  width: 30vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+div.addNewProduct .flexItem{
+  float: right;
+}
+

@@ -1,0 +1,42 @@
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  opacity: 0.5;
+}
+div.fixed:hover{
+  opacity: 1;
+  background-color: white;
+  width: max-content;
+  height: max-content;
+}
+.logout{
+  padding: 5px;
+  
+}
+img{
+  height: 60vh;
+}
+.carousel{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-items: center;
+}
+.carousel-inner{
+  /* border: 3px solid yellow; */
+  display: flex;
+  width: min-content  ;
+}
+.carousel-control-prev,
+  .carousel-control-next {
+    color: black;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  .carousel-inner .carousel-item {
+    transition-duration: 0.2s; 
+  }

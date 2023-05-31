@@ -1,0 +1,82 @@
+/* Apply some basic styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the styles for the main container */
+  .mainContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Set the styles for the header */
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Set the styles for the page title */
+  .pageTitle {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  /* Set the styles for the login form */
+  .loginForm {
+    margin-top: 20px;
+  }
+  
+  /* Set the styles for the form label */
+  .loginForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Set the styles for the form input */
+  .loginForm input[type="email"],
+  .loginForm input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Set the styles for the login button */
+  .loginForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Set the styles for the buttons palette */
+  .buttonsPallate {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Set the styles for the buttons */
+  .button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
